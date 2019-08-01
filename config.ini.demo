@@ -1,0 +1,4 @@
+[escucha]
+keywords_url = https://path.to.some.file.com/on/the/internet/with/keywords
+client_path = /local/file/with/spotify/client
+secret_path = /local/file/with/spotify/secret
