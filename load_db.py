@@ -85,7 +85,7 @@ def load_recommendations(artists, graph, index_id_map, ignore_top=0.05):
 
             rec_aid = index_id_map.loc[j, "id"]
 
-            aritsts -> id|node_name|playlist_degree|followers|genres|image_url|popularity|spotify_url
+            # aritsts -> id|node_name|playlist_degree|followers|genres|image_url|popularity|spotify_url
             rec_info = {
                 u"id": rec_aid,
                 u"name": artists.loc[rec_aid, "node_name"],
